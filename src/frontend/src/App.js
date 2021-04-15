@@ -227,6 +227,7 @@ function App() {
                 />
                 <Divider>
                     <a
+                        rel="noopener noreferrer"
                         target="_blank"
                         href="https://github.com/Krasy8">
                         Click here to visit my profile on GitHub
