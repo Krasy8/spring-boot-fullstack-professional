@@ -1,6 +1,20 @@
 import {useState, useEffect} from "react";
 import {deleteStudent, getAllStudents} from "./client";
-import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button, Badge, Tag, Radio, Popconfirm, Image} from 'antd';
+import {
+    Layout,
+    Menu,
+    Breadcrumb,
+    Table,
+    Spin,
+    Empty,
+    Button,
+    Badge,
+    Tag,
+    Radio,
+    Popconfirm,
+    Image,
+    Divider
+} from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
@@ -211,6 +225,13 @@ function App() {
                 <Image width={75}
                        src={"https://avatars.githubusercontent.com/u/52803882?s=80&v=4"}
                 />
+                <Divider>
+                    <a
+                        target="_blank"
+                        href="https://github.com/Krasy8">
+                        Click here to visit my profile on GitHub
+                    </a>
+                </Divider>
             </Footer>
         </Layout>
     </Layout>
